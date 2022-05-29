@@ -165,3 +165,36 @@ int main() {
 
  return 0;
 }
+/*
+Start
+Step 1 - Include the required header files (iostream.h, conio.h, and windows.h for colors).
+
+Step 2 - Create a class (employee) with the following members as public members.
+
+emp_number, emp_name, emp_salary, as data members. get emp_details().
+
+find net salary() and show_emp_details() asmember functions.
+
+Step 3 - Implement all the member functions with their respective code (Here, we
+
+have used scoperesolution operator ::). Step 3 - Create a main() method. Step 4 - Create an object (emp) of the above class inside the main() method. Step 5 - Call the member functions
+
+get_emp_details and show_emp_details().Step 6-returnn 0 to
+
+exit form the program execution.
+
+Approach:
+
+1. For storing the data of the employee, create a user define datatype which will store the information regarding Employee. Below is the declaration of the data type:
+
+2. struct employee
+
+(3. string name;
+
+4. long int Employee_id;
+
+5. string designation;
+
+6. int salary;
+End 
+*/
