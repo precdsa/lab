@@ -187,3 +187,13 @@ int main()
          //cout<<endl<<d<<endl;
          return 0;
 }
+*/
+Start
+
+1)Step 1 Create a new BST node and assign values to it
+2)Step 2 insert new node along with key value...
+          1) if root=> data < key  add it to right side 
+          2) if root=>data >key add it
+           to left side that is left sub tree.
+3)Step 3 finally return the original root pointer to calling function
+ End /*
