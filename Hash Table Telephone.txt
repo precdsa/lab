@@ -182,3 +182,11 @@ int main()
 
  return 0;
 }
+/* 
+Start 
+Step 1 Take input from user og N clients
+Step 2 Creat hash table and insert the data in it
+Step 3 If collision occurs then solve it by any one method open hasing or close hasing
+Step 4 Enter the element you want to search and search it if found then print element found
+Step 5 Enter the element we want to delete and after delection give msg element delted
+Step 6 End 
