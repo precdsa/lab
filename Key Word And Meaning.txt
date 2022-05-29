@@ -190,3 +190,10 @@ main ()
     }
   return 0;
 }
+
+/*
+Start
+Step 1) Take the input of keyword and it's meaning from user
+Step 2) Creat node in BST and store this input in it
+Step 3) Insert the key along with meaning you want to insert in Trees same for deleting an keyword
+End
