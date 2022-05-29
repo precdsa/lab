@@ -250,3 +250,12 @@ int main()
        }
        return 0;
 }
+*/
+Start 
+1) Step 1  Creat a node in the tree and assing value  to it. And assing value to it is name of the book
+2) Step 2  Insert the name of the subchapter to the left side root node. 
+3) Step 3  Insert the name of the subchapter to the Right side root node.
+4) Step 4  Insert the name of the section of chapter 1 to left of the chapter 1 node .
+5) Step 5  Repeat the step 3 and 4 until all the data inserted in the tree
+6) Step 6  Display the inserted data 
+End /*
