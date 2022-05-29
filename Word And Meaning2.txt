@@ -191,3 +191,39 @@ main ()
     }
   return 0;
 }
+*/
+Algorithm AVL TREE:
+Start
+Insert:-
+1. If P is NULL, then I. P =
+new node
+II. P ->element = x
+III. P ->left = NULL
+IV. P ->right = NULL
+V. P ->height = 0
+2. else if x>1 => x<P ->element
+a.) insert(x, P ->left)
+b.) if height of P->left -height of P ->right =2
+1. insert(x, P ->left)
+2. if height(P ->left) -height(P ->right) =2
+if x<P ->left ->element
+P =singlerotateleft(P)
+3. else
+else
+if x<P ->element
+P =doublerotateleft(P)
+a.)insert(x, P -> right)
+b.) if height (P -> right) -height (P ->left) =2
+if(x<P ->right) ->element
+P =singlerotateright(P)
+4. else
+Print already exits
+5. int m, n, d.
+else
+P =doublerotateright(P)
+6. m = AVL height (P->left)
+7. n = AVL height (P->right)
+8. d = max(m, n)
+9. P->height = d+1
+Stop
+/*
